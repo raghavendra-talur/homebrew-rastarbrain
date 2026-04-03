@@ -9,7 +9,7 @@ class Rastarbrain < Formula
   def install
     odie "rastarbrain Homebrew installs currently support Apple Silicon macOS only." unless Hardware::CPU.arm?
 
-    bin.install "rastarbrain-server-darwin-arm64/bin/rastarbrain"
+    bin.install "bin/rastarbrain"
   end
 
   service do
