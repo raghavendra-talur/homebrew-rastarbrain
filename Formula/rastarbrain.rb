@@ -1,9 +1,9 @@
 class Rastarbrain < Formula
   desc "Self-hosted personal knowledge manager for notes, tasks, and review workflows"
   homepage "https://github.com/raghavendra-talur/rastarbrain"
-  url "https://github.com/raghavendra-talur/rastarbrain/releases/download/v0.5.0/rastarbrain-server-darwin-arm64.tar.gz"
-  version "0.5.0"
-  sha256 "d0e5a5032ddb950e2b82bfeac77d857545dfd3b9965b46073b8c513e441419cb"
+  url "https://github.com/raghavendra-talur/rastarbrain/releases/download/v0.5.1/rastarbrain-server-darwin-arm64.tar.gz"
+  version "0.5.1"
+  sha256 "52c4d7a17bf005f1343b761a0e08b8d18add843f25da839ea2180f91ece3db37"
   license :cannot_represent
 
   def install
